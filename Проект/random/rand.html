@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="result">
+      <h1>Сгенерированные числа:</h1>
+      <textarea id="res" name="text" wrap="hard" readonly></textarea>
+    </div>
+
+    <div class="questions">
+      <div class="amount">
+        <label for="num">Количество чисел </label>
+        <input type="number" id="number" name="num" />
+      </div>
+      <div class="range">
+        <label for="min">Диапазон от </label>
+        <input type="number" id="num-min" name="min" />
+        <label for="max">до </label>
+        <input type="number" id="num-max" name="max" />
+      </div>
+      <div>
+        <button id="btn" name="button">Сгенерировать</button>
+      </div>
+      <div>
+        <button id="btn2">
+          <a href="../index.html"><span class="main">Главное меню</span></a>
+        </button>
+      </div>
+    </div>
+    <script src="rand.js"></script>
+  </body>
+</html>

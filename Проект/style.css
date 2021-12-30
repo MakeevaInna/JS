@@ -1,0 +1,6 @@
+.image {
+  display: grid;
+  grid-template-areas: "img1 img3 img3";
+  grid-gap: 8px;
+  margin: 250px 0px 0px 12px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+    <div class="million">
+        <div class="field">
+            <div class="buttons">
+                <div id="fifty" data-id="fifty" onclick="this.hidden=true"></div>
+                <div id="call" data-id="call" onclick="this.hidden=true"></div>
+                <div id="help" data-id="help" onclick="this.hidden=true"></div>
+            </div>
+            <div class="background">
+                <p class="img"><img src="mil.png" alt="шаблон" /></p>
+            </div>
+            <div class="money">
+                <div class="stage stage15" style="color: red">15----1000000</div>
+                <div class="stage stage14">14----500000</div>
+                <div class="stage stage13">13----250000</div>
+                <div class="stage stage12">12----125000</div>
+                <div class="stage stage11">11----64000</div>
+                <div class="stage stage10" style="color: red">10----32000</div>
+                <div class="stage stage9">9-----16000</div>
+                <div class="stage stage8">8-----8000</div>
+                <div class="stage stage7">7-----4000</div>
+                <div class="stage stage6">6-----2000</div>
+                <div class="stage stage5" style="color: red">5-----1000</div>
+                <div class="stage stage4">4-----500</div>
+                <div class="stage stage3">3-----300</div>
+                <div class="stage stage2">2-----200</div>
+                <div class="stage stage1">1-----100</div>
+            </div>
+        </div>
+        <div id = "window" class="modal">
+            <div class="content">
+                <h1></h1>
+                <h3 class="score"></h3>
+                <button><a href="million.html"><span class="exit">Играем еще?</span></a></button>
+                <button><a href="../index.html"><span class="main">Главное меню</span></a></button>
+            </div>
+        </div>
+    
+        <div class="question">
+            
+        </div>
+        <div class="answers">
+            <div data-id="0" class="answer answer0"></div>
+            <div data-id="1" class="answer answer1"></div>
+            <div data-id="2" class="answer answer2"></div>
+            <div data-id="3" class="answer answer3"></div>
+        </div>
+    </div>
+    <script src="million.js"></script>
+  </body>
+</html>
