@@ -439,3 +439,4 @@ if (num1 == num2) {
 } else if (num3 == num1) {
     console.log(2);
 }
+
